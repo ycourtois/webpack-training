@@ -27,7 +27,7 @@ const config = {
                 use: [
                     {
                       loader: 'url-loader',
-                      options: { limit: 40000 }  // if gt than 40 kb, do not handle with this loader
+                      options: { limit: 40000 }  // if gt than 40 kb, do not handle with this loader. Image will be store as raw data inside js file
                     },
                     'image-webpack-loader'
                 ]
